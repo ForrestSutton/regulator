@@ -1,0 +1,13 @@
+#speed.html
+<!doctype html>
+
+<ul>
+{% speed in speeds %}
+  <li><a href="/{{speed.id}}"><{{%speed.site%}}</li>
+  {%endfor %}
+</ul>
+
+<!-- <form action="" method="post">
+    <p><input type= name=name>
+    <input type=submit value=Add>
+</form> -->
